@@ -6,7 +6,8 @@
              printf("请输入计算符号(+,-,/,*)");
              scanf("%c",&sign);
              printf("请输入第一个数字和第二个数字");
-             scanf("%lf%lf",&firstnumber,&secondnumber);
+             int numeber = scanf("%lf%lf",&firstnumber,&secondnumber);
+             printf("输入数字个数为%d\n",numeber);
              if (secondnumber == 0 &&sign == '/')
              {
              printf("计算失败零不可以作除数");//为了防止0除任何数字程序错误
