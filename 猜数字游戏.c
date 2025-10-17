@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <stdlib.h>//rand函数和srand函数头文件
+#include <time.h>//time函数的头文件
 
 void game ()//game函数引用
 {
