@@ -15,7 +15,7 @@ void game ()//game函数引用
          if (input > 100 || input <= 0)
          {
              printf("请输入正确的数字\n");
-             continue;
+             continue;//当满足if条件时，continue之后的命令不执行，直接下一个循环
          }
          if (input > number)
          {
