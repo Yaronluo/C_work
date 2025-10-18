@@ -63,6 +63,9 @@ void setting()//设置函数引用
          n = 5;
          printf("你选择了困难模式\n");
          break;
+     default:
+         printf("请输入正确的难度模式对应的数字\n");
+         break;
      }
 }
 int main()
