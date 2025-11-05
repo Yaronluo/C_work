@@ -2,7 +2,7 @@
 int main()
 {
     int arr1[3][5] = {0};
-    printf("二维数组练习请输入15个数字\n");
+    printf("二维数组练习请输入15个数字(空格隔开)\n");
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 5; j++)
@@ -18,7 +18,7 @@ int main()
         }
     }
     printf("\n");
-    printf("一维数组练习请输入5个数字\n");
+    printf("一维数组练习请输入5个数字(空格隔开)\n");
     int arr2[5] = {0};
     for (int i = 0; i < 5; i++)
     {
