@@ -9,7 +9,7 @@ int main ()
     {
         scanf("%s",&arr[i]);
     }
-    int len = strlen(arr);//strlen计算的是字符串实际字符数
+    int len = strlen(arr);//strlen计算的是字符串实际字符数，/0前字符数
     for (int i = 0; i < len; i++)
     {
      printf("%c", arr[i]);
